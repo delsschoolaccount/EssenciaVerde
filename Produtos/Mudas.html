@@ -1,162 +1,213 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js"></script>
+    <title>Mudas</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
-    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-  <link rel="stylesheet" href="/style.css">
-  <script src="/script.js"></script>
-  <title>Mudas</title>
-</head>
+  <body class="body">
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="/index.html">Essência Verde</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<body class = "body">  
-  <header class ="header">
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="/index.html">Essência Verde</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-       
-      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Produtos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="Sementes.html">Sementes</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="Flores.html">Flores</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href=""><strong>Mudas</strong></a>
+              </div>
+            </li>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="/BLOG.HTML">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Sobre.html">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Suporte.html">Suporte</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Contato.html">Contato</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Pesquisar"
+              aria-label="Pesquisar"
+            />
+            <button class="btn btn-outline my-2 my-sm-0" type="submit">
+              Pesquisar
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
 
-         
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-              aria-haspopup="true" aria-expanded="false">
-              Produtos
-            </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="Sementes.html">Sementes</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="Flores.html">Flores</a>
-              <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href=""><strong>Mudas</strong></a>
-            
+    <div class="container mt-4">
+      <h2>Nossas Mudas</h2>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div
+            class="card clickable"
+            style="height: 20rem"
+            onclick="PaginaProduto('/Comprar/Mudas/Muda de Carvalho.html')"
+          >
+            <img class="card-img-top" src="" alt="Muda 1" />
+            <div class="card-body">
+              <h5 class="card-title">Muda de Carvalho</h5>
+              <p class="card-text">
+                Transforme seu jardim com nossas mudas de carvalho saudáveis e
+                resistentes.
+              </p>
+              <p class="card-text"><strong>Preço: R$ 30,00</strong></p>
             </div>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link" href="/BLOG.HTML">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Sobre.html">Sobre</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/Suporte.html">Suporte</a>
-          </li>
-<li class="nav-item">
-            <a class="nav-link" href="/Contato.html">Contato</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-        </form>
-      </div>
-    </nav>
-  </header>
-
-
-  <div class="container mt-4">
-    <h2>Nossas Mudas</h2>
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="card clickable" style="height: 20rem" onclick="PaginaProduto('/Comprar/Mudas/Muda de Carvalho.html')">
-          <img class="card-img-top" src="" alt="Muda 1">
-          <div class="card-body">
-            <h5 class="card-title">Muda de Carvalho</h5>
-            <p class="card-text">Transforme seu jardim com nossas mudas de carvalho saudáveis e resistentes.</p>
-            <p class="card-text"><strong>Preço: R$ 30,00</strong></p>
-            
           </div>
         </div>
-      </div>
 
-   
-      <div class="col-md-4 mb-4">
-        <div class="card clickable" style="height: 20rem" onclick="PaginaProduto('/Comprar/Mudas/Muda de Pinheiro.html')">
-          <img class="card-img-top" src="" alt="Muda 2">
-          <div class="card-body">
-            <h5 class="card-title">Muda de Pinheiro</h5>
-            <p class="card-text">Muda de pinheiro para criar um ambiente natural e tranquilo em seu jardim.</p>
-            <p class="card-text"><strong>Preço: R$ 35,00</strong></p>
-     
+        <div class="col-md-4 mb-4">
+          <div
+            class="card clickable"
+            style="height: 20rem"
+            onclick="PaginaProduto('/Comprar/Mudas/Muda de Pinheiro.html')"
+          >
+            <img class="card-img-top" src="" alt="Muda 2" />
+            <div class="card-body">
+              <h5 class="card-title">Muda de Pinheiro</h5>
+              <p class="card-text">
+                Muda de pinheiro para criar um ambiente natural e tranquilo em
+                seu jardim.
+              </p>
+              <p class="card-text"><strong>Preço: R$ 35,00</strong></p>
+            </div>
           </div>
         </div>
-      </div>
 
-  
-      <div class="col-md-4 mb-4">
-        <div class="card clickable" style="height: 20rem" onclick="PaginaProduto('/Comprar/Mudas/Muda de Oliveira.html')">
-          <img class="card-img-top" src="" alt="Muda 3">
-          <div class="card-body">
-            <h5 class="card-title">Muda de Oliveira</h5>
-            <p class="card-text">Cultive a sua própria oliveira e desfrute de azeitonas frescas direto do seu jardim.</p>
-            <p class="card-text"><strong>Preço: R$ 50,00</strong></p>
-           
+        <div class="col-md-4 mb-4">
+          <div
+            class="card clickable"
+            style="height: 20rem"
+            onclick="PaginaProduto('/Comprar/Mudas/Muda de Oliveira.html')"
+          >
+            <img class="card-img-top" src="" alt="Muda 3" />
+            <div class="card-body">
+              <h5 class="card-title">Muda de Oliveira</h5>
+              <p class="card-text">
+                Cultive a sua própria oliveira e desfrute de azeitonas frescas
+                direto do seu jardim.
+              </p>
+              <p class="card-text"><strong>Preço: R$ 50,00</strong></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="container mt-4">
-    <div class="row">
-      <div class="col-md-4 mb-4">
-        <div class="card clickable" style="height: 20rem" onclick="PaginaProduto('/Comprar/Mudas/Muda de Lichia.html')">
-          <img class="card-img-top" src="" alt="Muda 1">
-          <div class="card-body">
-            <h5 class="card-title">Muda de Lichia</h5>
-            <p class="card-text">Lindas frutas, preparadas para o seu jardim.</p>
-            <p class="card-text"><strong>Preço: R$ 45,00</strong></p>
-            
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <div
+            class="card clickable"
+            style="height: 20rem"
+            onclick="PaginaProduto('/Comprar/Mudas/Muda de Lichia.html')"
+          >
+            <img class="card-img-top" src="" alt="Muda 1" />
+            <div class="card-body">
+              <h5 class="card-title">Muda de Lichia</h5>
+              <p class="card-text">
+                Lindas frutas, preparadas para o seu jardim.
+              </p>
+              <p class="card-text"><strong>Preço: R$ 45,00</strong></p>
+            </div>
           </div>
         </div>
-      </div>
 
-   
-      <div class="col-md-4 mb-4">
-        <div class="card clickable" style="height: 20rem" onclick="PaginaProduto('/Comprar/Mudas/Muda de Tangerina.html')">
-          <img class="card-img-top" src="" alt="Muda 2">
-          <div class="card-body">
-            <h5 class="card-title">Muda de Tangerina</h5>
-            <p class="card-text">Muda de tangerina, uma fruta extremamente refrescante.</p>
-            <p class="card-text"><strong>Preço: R$ 15,00</strong></p>
-     
+        <div class="col-md-4 mb-4">
+          <div
+            class="card clickable"
+            style="height: 20rem"
+            onclick="PaginaProduto('/Comprar/Mudas/Muda de Tangerina.html')"
+          >
+            <img class="card-img-top" src="" alt="Muda 2" />
+            <div class="card-body">
+              <h5 class="card-title">Muda de Tangerina</h5>
+              <p class="card-text">
+                Muda de tangerina, uma fruta extremamente refrescante.
+              </p>
+              <p class="card-text"><strong>Preço: R$ 15,00</strong></p>
+            </div>
           </div>
         </div>
-      </div>
 
-  
-      <div class="col-md-4 mb-4">
-        <div class="card clickable" style="height: 20rem" onclick="PaginaProduto('/Comprar/Mudas/Muda de Ameixa.html')">
-          <img class="card-img-top" src="" alt="Muda 3">
-          <div class="card-body">
-            <h5 class="card-title">Muda de Ameixa</h5>
-            <p class="card-text">Cultive ameixas em seu jardim, uma fruta que é bem doce.</p>
-            <p class="card-text"><strong>Preço: R$ 20,00</strong></p>
-           
+        <div class="col-md-4 mb-4">
+          <div
+            class="card clickable"
+            style="height: 20rem"
+            onclick="PaginaProduto('/Comprar/Mudas/Muda de Ameixa.html')"
+          >
+            <img class="card-img-top" src="" alt="Muda 3" />
+            <div class="card-body">
+              <h5 class="card-title">Muda de Ameixa</h5>
+              <p class="card-text">
+                Cultive ameixas em seu jardim, uma fruta que é bem doce.
+              </p>
+              <p class="card-text"><strong>Preço: R$ 20,00</strong></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
-</div>
 
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
-    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
-    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">
-  </script>
-</body>
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
