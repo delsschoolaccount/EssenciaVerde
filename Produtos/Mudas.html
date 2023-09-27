@@ -17,44 +17,138 @@
   </head>
 
   <body class="body">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="/index.html">Essência Verde</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="page-container">
+      <div class="content-wrap">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="/index.html">Essência Verde</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Produtos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Sementes.html">Sementes</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="Flores.html">Flores</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href=""><strong>Mudas</strong></a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/BLOG.HTML">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Suporte.html">Suporte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/Contato.html">Contato</a>
+                </li>
+              </ul>
+          
+            </div>
+          </nav>
+        </header>
+
+        <div class="container mt-4">
+          <h2>Nossas Mudas</h2>
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div
+                class="card clickable"
+                style="height: 20rem"
+                onclick="PaginaProduto('/Comprar/Mudas/Muda de Carvalho.html')"
               >
-                Produtos
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="Sementes.html">Sementes</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="Flores.html">Flores</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href=""><strong>Mudas</strong></a>
-              </div>
-            </li>
 
+                <div class="card-body">
+                  <img class="card-img-top" src="ImgProd/Mudas/Carvalho/Oak-tree_3894f72f-792e-4e5c-b0d4-c575b9d78d49.png" alt="Muda 1" style="height: 125px; width: 300px; object-fit: contain" />
+                  <h5 class="card-title">Muda de Carvalho</h5>
+                  <p class="card-text">
+                    Transforme seu jardim com nossas mudas de carvalho saudáveis e
+                    resistentes.
+                  </p>
+                  <br>
+                  <p class="card-text"><strong>Preço: R$ 30,00</strong></p>
+                </div>
+              </div>
+            </div>
+
+<<<<<<< HEAD
+            <div class="col-md-4 mb-4">
+              <div
+                class="card clickable"
+                style="height: 20rem"
+                onclick="PaginaProduto('/Comprar/Mudas/Muda de Pinheiro.html')"
+              >
+                
+                <div class="card-body">
+                  <img class="card-img-top" src="ImgProd/Mudas/Pinheiro/1a6fab4ad5.png" alt="Muda 2" style="height: 125px; width: 300px; object-fit: contain" />
+                  <h5 class="card-title">Muda de Pinheiro</h5>
+                  <p class="card-text">
+                    Muda de pinheiro para criar um ambiente natural e tranquilo em
+                    seu jardim.
+                  </p>
+                  <br>
+                  <p class="card-text"><strong>Preço: R$ 35,00</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <div
+                class="card clickable"
+                style="height: 20rem"
+                onclick="PaginaProduto('/Comprar/Mudas/Muda de Oliveira.html')"
+              >
+                
+                <div class="card-body">
+                  <img class="card-img-top" src="ImgProd/Mudas/Oliveira/muda_de_oliveira_olea_europaea_640_1_20190611093602.png" alt="Muda 3" style="height: 125px; width: 300px; object-fit: contain" />
+                  <h5 class="card-title">Muda de Oliveira</h5>
+                  <p class="card-text">
+                    Cultive a sua própria oliveira e desfrute de azeitonas frescas
+                    direto do seu jardim.
+                  </p>
+                  <br>
+                  <p class="card-text"><strong>Preço: R$ 50,00</strong></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container mt-4">
+          <div class="row">
+            <div class="col-md-4 mb-4">
+              <div
+                class="card clickable"
+                style="height: 20rem"
+                onclick="PaginaProduto('/Comprar/Mudas/Muda de Lichia.html')"
+              >
+=======
             <li class="nav-item">
               <a class="nav-link" href="/BLOG.HTML">Blog</a>
             </li>
@@ -75,143 +169,70 @@
     </nav>
   </header>
  
+>>>>>>> 65f29e2065320b63e869d1c24075bf2e408d92ed
 
-    <div class="container mt-4">
-      <h2>Nossas Mudas</h2>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div
-            class="card clickable"
-            style="height: 20rem"
-            onclick="PaginaProduto('/Comprar/Mudas/Muda de Carvalho.html')"
-          >
+                <div class="card-body">
+                  <img class="card-img-top" src="/Produtos/ImgProd/Mudas/Lichia/muda_de_lichia_alporquia_produzindo_altura_de_1_0_m_a_1_5_m_261_2_1c6276753e92ad3cf0a7bb58d00626ce.png" alt="Muda 1" style="height: 125px; width: 300px; object-fit: contain" />
+                  <h5 class="card-title">Muda de Lichia</h5>
+                  <p class="card-text">
+                    Lindas frutas, preparadas para o seu jardim.
+                  </p>
+                  <br>
+                  <br>
+                  <p class="card-text"><strong>Preço: R$ 45,00</strong></p>
+                </div>
+              </div>
+            </div>
 
-            <div class="card-body">
-              <img class="card-img-top" src="ImgProd/Mudas/Carvalho/Oak-tree_3894f72f-792e-4e5c-b0d4-c575b9d78d49.png" alt="Muda 1" style="height: 125px; width: 300px; object-fit: contain" />
-              <h5 class="card-title">Muda de Carvalho</h5>
-              <p class="card-text">
-                Transforme seu jardim com nossas mudas de carvalho saudáveis e
-                resistentes.
-              </p>
-              <br>
-              <p class="card-text"><strong>Preço: R$ 30,00</strong></p>
+            <div class="col-md-4 mb-4">
+              <div
+                class="card clickable"
+                style="height: 20rem"
+                onclick="PaginaProduto('/Comprar/Mudas/Muda de Tangerina.html')"
+              >
+                
+                <div class="card-body">
+                  <img class="card-img-top" src="ImgProd/Mudas/Tangerina/muda_de_tangerina_murcote_altura_0_40_cm_a_0_80_781_1_cc87254377f21e692641bd2d6eeb8f06.png" alt="Muda 2" style="height: 125px; width: 300px; object-fit: contain" />
+                  <h5 class="card-title">Muda de Tangerina</h5>
+                  <p class="card-text">
+                    Muda de tangerina, uma fruta extremamente refrescante.
+                  </p>
+                  <br>
+                  <p class="card-text"><strong>Preço: R$ 15,00</strong></p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 mb-4">
+              <div
+                class="card clickable"
+                style="height: 20rem"
+                onclick="PaginaProduto('/Comprar/Mudas/Muda de Ameixa.html')"
+              >
+                
+                <div class="card-body">
+                  <img class="card-img-top" src="ImgProd/Mudas/Ameixa/D_NQ_NP_911112-MLB45309372882_032021-O.png" alt="Muda 3" style="height: 125px; width: 300px; object-fit: contain" />
+                  <h5 class="card-title">Muda de Ameixa</h5>
+                  <p class="card-text">
+                    Cultive ameixas em seu jardim, uma fruta que é bem doce.
+                  </p>
+                  <br>
+                  <p class="card-text"><strong>Preço: R$ 20,00</strong></p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 mb-4">
-          <div
-            class="card clickable"
-            style="height: 20rem"
-            onclick="PaginaProduto('/Comprar/Mudas/Muda de Pinheiro.html')"
-          >
-            
-            <div class="card-body">
-              <img class="card-img-top" src="ImgProd/Mudas/Pinheiro/1a6fab4ad5.png" alt="Muda 2" style="height: 125px; width: 300px; object-fit: contain" />
-              <h5 class="card-title">Muda de Pinheiro</h5>
-              <p class="card-text">
-                Muda de pinheiro para criar um ambiente natural e tranquilo em
-                seu jardim.
-              </p>
-              <br>
-              <p class="card-text"><strong>Preço: R$ 35,00</strong></p>
+        <footer class="text-center text-lg-start footer" style="color: #ffffff;" >
+          <!-- Copyright -->
+            <div class="text-center p-3"> <a class="text-light" href="/Copyright.html">
+              © 2023 Pedro Henrique, Renan Viana, Tiago Schartner
+              </a>
             </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-          <div
-            class="card clickable"
-            style="height: 20rem"
-            onclick="PaginaProduto('/Comprar/Mudas/Muda de Oliveira.html')"
-          >
-            
-            <div class="card-body">
-              <img class="card-img-top" src="ImgProd/Mudas/Oliveira/muda_de_oliveira_olea_europaea_640_1_20190611093602.png" alt="Muda 3" style="height: 125px; width: 300px; object-fit: contain" />
-              <h5 class="card-title">Muda de Oliveira</h5>
-              <p class="card-text">
-                Cultive a sua própria oliveira e desfrute de azeitonas frescas
-                direto do seu jardim.
-              </p>
-              <br>
-              <p class="card-text"><strong>Preço: R$ 50,00</strong></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-4">
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div
-            class="card clickable"
-            style="height: 20rem"
-            onclick="PaginaProduto('/Comprar/Mudas/Muda de Lichia.html')"
-          >
-
-            <div class="card-body">
-              <img class="card-img-top" src="/Produtos/ImgProd/Mudas/Lichia/muda_de_lichia_alporquia_produzindo_altura_de_1_0_m_a_1_5_m_261_2_1c6276753e92ad3cf0a7bb58d00626ce.png" alt="Muda 1" style="height: 125px; width: 300px; object-fit: contain" />
-              <h5 class="card-title">Muda de Lichia</h5>
-              <p class="card-text">
-                Lindas frutas, preparadas para o seu jardim.
-              </p>
-              <br>
-              <br>
-              <p class="card-text"><strong>Preço: R$ 45,00</strong></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-          <div
-            class="card clickable"
-            style="height: 20rem"
-            onclick="PaginaProduto('/Comprar/Mudas/Muda de Tangerina.html')"
-          >
-            
-            <div class="card-body">
-              <img class="card-img-top" src="ImgProd/Mudas/Tangerina/muda_de_tangerina_murcote_altura_0_40_cm_a_0_80_781_1_cc87254377f21e692641bd2d6eeb8f06.png" alt="Muda 2" style="height: 125px; width: 300px; object-fit: contain" />
-              <h5 class="card-title">Muda de Tangerina</h5>
-              <p class="card-text">
-                Muda de tangerina, uma fruta extremamente refrescante.
-              </p>
-              <br>
-              <p class="card-text"><strong>Preço: R$ 15,00</strong></p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-4">
-          <div
-            class="card clickable"
-            style="height: 20rem"
-            onclick="PaginaProduto('/Comprar/Mudas/Muda de Ameixa.html')"
-          >
-            
-            <div class="card-body">
-              <img class="card-img-top" src="ImgProd/Mudas/Ameixa/D_NQ_NP_911112-MLB45309372882_032021-O.png" alt="Muda 3" style="height: 125px; width: 300px; object-fit: contain" />
-              <h5 class="card-title">Muda de Ameixa</h5>
-              <p class="card-text">
-                Cultive ameixas em seu jardim, uma fruta que é bem doce.
-              </p>
-              <br>
-              <p class="card-text"><strong>Preço: R$ 20,00</strong></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <footer class="text-center text-lg-start" style="color: #ffffff;">
-    
-      <!-- Copyright -->
-      <div class="text-center p-3">
-        © 2023 Pedro Henrique, Renan Viana, Tiago Schartner |
-        <a class="text-light" href="Copyright.html"><strong><u>MD</u></strong></a>
-      </div>
-      <!-- Copyright -->
-    </footer>
-
+          <!-- Copyright -->
+        </footer>
+        
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
