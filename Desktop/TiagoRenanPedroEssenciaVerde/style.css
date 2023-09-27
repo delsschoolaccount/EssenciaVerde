@@ -1,0 +1,49 @@
+.body{
+ background-color: #d3ffd9;
+ margin:0;
+ min-height: 100vh;
+ display: flex;
+ flex-direction: column;
+}
+
+.card{
+    background-color: #2d8f3b;
+    color: white;
+}
+header{
+    background-color: #2d8f3b;
+}
+
+footer{
+    background-color: #2d8f3b;
+    min-height:50px;
+}
+
+.hoverable {
+    transition: all .2s ease-in-out;
+}
+
+.hoverable:hover {
+    transform: scale(1.025);
+   
+}
+
+.clickable {
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+   
+}
+
+.clickable:hover {
+    transform: scale(1.025);
+   
+}
+
+  
+
+  .footer {
+    margin-top: auto;
+
+    background-color: #2d8f3b;
+    color: white;
+  }
