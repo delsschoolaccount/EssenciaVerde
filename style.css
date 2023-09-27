@@ -1,6 +1,9 @@
 .body{
  background-color: #d3ffd9;
+ min-height: 100vh; 
+ margin:0;
 }
+
 .card{
     background-color: #2d8f3b;
     color: white;
@@ -11,6 +14,7 @@ header{
 
 footer{
     background-color: #2d8f3b;
+    min-height:50px;
 }
 
 .hoverable {
