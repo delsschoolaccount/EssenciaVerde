@@ -18,44 +18,132 @@
   </head>
 
   <body class="body">
-    <header class="header">
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="index.html">Essência Verde</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <div class="page-container">
+      <div class="content-wrap">
+        <header class="header">
+          <nav class="navbar navbar-expand-lg navbar-dark">
+            <a class="navbar-brand" href="index.html">Essência Verde</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Produtos
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="Produtos/Sementes.html"
-                  >Sementes</a
-                >
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="Produtos/Flores.html">Flores</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="Produtos/Mudas.html">Mudas</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Produtos
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="Produtos/Sementes.html"
+                      >Sementes</a
+                    >
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="Produtos/Flores.html">Flores</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="Produtos/Mudas.html">Mudas</a>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="BLOG.HTML"><strong>Blog</strong></a>
+                  <span class="sr-only">(current)</span>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Sobre.html">Sobre</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Suporte.html">Suporte</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="Contato.html">Contato</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </header>
+
+        <form
+          style="display: flex; justify-content: center; padding-bottom: 3rem; padding-top: 3rem;"
+          class="form-inline my-2 my-lg-0"
+        >
+          <input
+          id="searchInput"
+            style="width: 70rem"
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Pesquisar"
+            aria-label="Pesquisar"
+          />
+        
+        </form>
+        <div style="display: flex; justify-content: center">
+          <div class="frexbox" style="display: flex; flex-direction: column">
+            <div
+              class="card"
+              style="height: 18rem; width: 70rem; margin-bottom: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Dicas de Plantações</h5>
+                <p class="card-text">
+                  Cultive seus próprios tomates orgânicos em casa com nossas
+                  sementes de alta qualidade.
+                </p>
+                <a href="#" class="btn btn-primary">Veja mais</a>
               </div>
+            </div>
+            <div
+              class="card"
+              style="height: 18rem; width: 70rem; margin-bottom: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Evento de plantações</h5>
+                <p class="card-text">
+                  Cultive seus próprios tomates orgânicos em casa com nossas
+                  sementes de alta qualidade.
+                </p>
+                <a href="#" class="btn btn-primary">Veja mais</a>
+              </div>
+            </div>
+            <div
+              class="card"
+              style="height: 18rem; width: 70rem; margin-bottom: 20px"
+            >
+              <div class="card-body">
+                <h5 class="card-title">Campeonato regional de plantação</h5>
+                <p class="card-text">
+                  Cultive seus próprios tomates orgânicos em casa com nossas
+                  sementes de alta qualidade.
+                </p>
+                <a href="#" class="btn btn-primary">Veja mais</a>
+              </div>
+            </div>
+            <div
+            class="card"
+            style="height: 18rem; width: 70rem; margin-bottom: 20px"
+          >
+            <div class="card-body">
+              <h5 class="card-title">Sorteio de utensílios para jardinagem</h5>
+              <p class="card-text">
+              Estamos realizando um sorteio de utensílios para jardinagem doados por uma empresa patrocinadora nossa, como já temos o suficiente estaremos sorteando.
+              </p>
+              <a href="#" class="btn btn-primary">Veja mais</a>
+            </div>
             </li>
 
             <li class="nav-item">
@@ -108,14 +196,24 @@
             </p>
         
           </div>
+<<<<<<< HEAD
         </div>
         <div
       class="card"
       style="height: 40rem; width: 40rem; margin-bottom: 20px">
           <img class="card-img-top" src="Img/19092018151417_19-09-arvoresjpg.webp" width="500rem"; height="300rem">
+=======
+          <div
+          class="card"
+          style="height: 18rem; width: 70rem; margin-bottom: 20px">
+          <img class="card-img-top" src="Img/19092018151417_19-09-arvoresjpg.webp" width="150rem"; height="150rem">
+>>>>>>> 27b63f373c0920290ce6b2c0930214e9fe6bd05a
           <div class="card-body">
-            <h5 class="card-title">Evento de plantações</h5>
+            <h5 class="card-title">Serviço comunitário para reflorestamento</h5>
             <p class="card-text">
+<<<<<<< HEAD
+            No dia 24 de outubro, será feito as inscrições para o serviço comunitário de reflorestamento, na reserva indígena.
+=======
               Cultive seus próprios tomates orgânicos em casa com nossas
               sementes de alta qualidade.
             </p>
@@ -132,6 +230,7 @@
             <p class="card-text">
               Cultive seus próprios tomates orgânicos em casa com nossas
               sementes de alta qualidade.
+>>>>>>> 65f29e2065320b63e869d1c24075bf2e408d92ed
             </p>
         
           </div>
@@ -141,14 +240,37 @@
         style="height: 40rem; width: 40rem; margin-bottom: 20px"
       >
         <div class="card-body">
+<<<<<<< HEAD
           <img class="card-img-top" src="Img/ferramentas-de-jardinagem-1.jpg" width="500rem"; height="400rem">
+=======
+<<<<<<< HEAD
+          <h5 class="card-title">Curso de botânica com especialistas</h5>
+=======
+          <img class="card-img-top" src="Img/ferramentas-de-jardinagem-1.jpg" width="150rem"; height="125rem">
+>>>>>>> 27b63f373c0920290ce6b2c0930214e9fe6bd05a
           <h5 class="card-title">Sorteio de utensílios para jardinagem</h5>
+>>>>>>> 65f29e2065320b63e869d1c24075bf2e408d92ed
           <p class="card-text">
-          Estamos realizando um sorteio de utensílios para jardinagem doados por uma empresa patrocinadora nossa, como já temos o suficiente estaremos sorteando.
+            Criamos um curso com ajuda de especialistas, com uma nova metodologia inovadora.
           </p>
       
         </div>
       </div>
+<<<<<<< HEAD
+          </div>
+        </div>
+
+        <footer class="footer" style="color: #ffffff;">
+        
+          <!-- Copyright -->
+          <div class="text-center p-3">
+          <a class="text-light" href="/Copyright.html">
+            © 2023 Pedro Henrique, Renan Viana, Tiago Schartner
+          </a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+=======
       <div
       class="card"
       style="height: 40rem; width: 40rem; margin-bottom: 20px"
@@ -184,9 +306,9 @@
       <div class="text-center p-3">
         © 2023 Pedro Henrique, Renan Viana, Tiago Schartner |
         <a class="text-light" href="Copyright.html"><strong><u>MD</u></strong></a>
+>>>>>>> 65f29e2065320b63e869d1c24075bf2e408d92ed
       </div>
-      <!-- Copyright -->
-    </footer>
+    </div>
     
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"

@@ -1,4 +1,4 @@
-.body{
+body{
  background-color: #d3ffd9;
  min-height: 100vh; 
  margin:0;
@@ -10,11 +10,15 @@
 }
 header{
     background-color: #2d8f3b;
+    padding: 0;
+    margin: 0;
 }
 
 footer{
+    position: relative;
     background-color: #2d8f3b;
-    min-height:50px;
+    padding: 0;
+    margin: 0;
 }
 
 .hoverable {
@@ -37,4 +41,18 @@ footer{
    
 }
 
-
+.page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+  .content-wrap {
+    padding-bottom: 2.5rem;    /* Footer height */
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;            /* Footer height */
+  }
