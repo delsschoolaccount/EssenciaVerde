@@ -6,14 +6,21 @@
     color: white;
 }
 header{
-background-color: #2d8f3b;
+    background-color: #2d8f3b;
 }
 
 footer{
     background-color: #2d8f3b;
 }
 
+.hoverable {
+    transition: all .2s ease-in-out;
+}
 
+.hoverable:hover {
+    transform: scale(1.025);
+   
+}
 
 .clickable {
     transition: all .2s ease-in-out;
