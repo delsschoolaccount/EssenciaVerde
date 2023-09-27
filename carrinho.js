@@ -35,27 +35,34 @@ document.addEventListener('DOMContentLoaded', function () {
   function updateCartDisplay() {
     const cartItemsElement = document.getElementById('cart-items');
     const cartTotalElement = document.getElementById('cart-total');
+    const cartQuantityElement = document.getElementById('cart-quantity');
     const cart = JSON.parse(localStorage.getItem('cart')) || [];
     let cartHTML = '';
     let total = 0;
-
+    let quantity = 0;
     cart.forEach((item, index) => {
       cartHTML += `
         <div class="cart-item">
-          <img class="cart-item-image" src="${item.imageSrc}" alt="">
+          <img style ="height: 150px; width: 250px; object-fit: contain" class="cart-item-image" src="${item.imageSrc}" alt="">
           <p class="cart-item-name">${item.name}</p>
           <p class="cart-item-price">R$ ${item.price.toFixed(2)}</p>
           <span class="remove-item-button" data-index="${index}">Remover</span>
         </div>`;
       total += item.price;
+      quantity += 1;
     });
 
     if (cartItemsElement) { 
       cartItemsElement.innerHTML = cartHTML;
     }
+  
 
     if (cartTotalElement) { 
       cartTotalElement.textContent = `R$ ${total.toFixed(2)}`;
+    }
+
+    if (cartQuantityElement) { 
+      cartQuantityElement.textContent = quantity;
     }
 
     const removeItemButtons = document.querySelectorAll('.remove-item-button');
